@@ -1,0 +1,131 @@
+div{
+  /*
+  border: 1px solid white;
+  */
+}
+body{
+  margin: 0 0;
+  padding: 0 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: Seashell;
+  background-color: black;
+  opacity: 0.9;
+
+}
+header{
+  height: 69px;
+  width: 100%;
+  border-bottom:  1px solid seashell;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  background-color: black;
+}
+
+.logo img{
+  height: 50px;
+}
+
+.logo{
+  padding-left: 10px;
+  display: flex;
+  flex: 1;
+}
+
+.nav-menu{
+  display: flex;
+  flex: 5;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+.nav-menu span,a{
+  color: seashell;
+  padding-right: 10px;
+}
+.main-container{
+  padding-top: 69px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.mission{
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  text-align: center;
+  align-items:  center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.content{
+  background-color: black;
+  width: 1200px;
+}
+.line-tea{
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+
+}
+
+.line-tea img{
+  height: 200px;
+  width: 300px;
+}
+.store-title{
+  text-align: center;
+}
+.product{
+
+  margin-right: 15px;
+  text-align: center;
+}
+.product h4{
+  margin-top:  10px
+}
+
+.tea-store{
+  margin-bottom: 50px;
+}
+
+.location{
+  height: 600px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-position:top;
+
+
+}
+.location h2{
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 15px;
+}
+.squares{
+display: flex;
+justify-content: center;
+}
+
+.square{
+  width: 300px;
+  margin-right: 40px;
+  background-color: black;
+  opacity: 1;
+  text-align: center;
+}
+#corner-right{
+  margin-right: 0;
+}
+
+.contact{
+  text-align: center;
+  height: 200px;
+}
+.copyright{
+  padding-left: 20px;
+}
